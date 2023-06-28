@@ -1,11 +1,15 @@
 :root {
     --cor-de-fundo: #9fabac;
     --Branco: #fff;
-    --laranja: rgb(255, 153, 0);
+    --laranja: rgb(105, 43, 1);
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-principal: "poppins";
 }
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
  }
 
 h1 {
@@ -52,6 +56,7 @@ h1 {
 .lista-menu__item {
 padding: 1em;
 background-color: var(--branco);
+font-weight: 700;
 }
 .lista-menu__link {
     background: var(--azul-degrade);
@@ -63,4 +68,7 @@ background-color: var(--branco);
 
 .container__botao:checked ~ .lista-menu{
     display: block;
+}
+.container__botao{
+    display: none;
 }
