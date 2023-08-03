@@ -1,2 +1,2 @@
 # Site-mobile-2trimestre
-dupla. Adryan H., Flavia C. site responsivo
+dupla. Adryan Henrique da Silva Gomes, Flavia C. site responsivo
