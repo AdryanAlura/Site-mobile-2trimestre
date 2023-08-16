@@ -67,10 +67,10 @@ h1 {
 	background-color: var(--branco);
 }
 
-.container__botao:checked ~ .lista-menu {
+.container__botao:checked~.lista-menu {
 	display: block;
 }
 
-.container__botao{
+.container__botao {
 	display: none;
 }
